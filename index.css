@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.MainBG {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.navdiv {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: violet; */
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.header {
+    display: flex;
+    /* background-color: turquoise; */
+    height: 100px;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-left: 50px;
+}
+.logodiv {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+.upperBG {
+    display: flex;
+}
+.lowerBG {
+    display: flex;
+}
+.upperfirst {
+    background-image: url(./images/desktop-image-hero-3\ -\ Copy.jpg);
+    height: 430px;
+    width: 60%;
+}
+.uppersecond {
+    /* background-color: royalblue; */
+    width: 40%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-left: 50px; */
+    font-weight: lighter;
+    font-size: small;
+    /* flex-direction: column-reverse; */
+    /* margin-bottom:10px; */
+}
+.BUTTON {
+letter-spacing: 10px;
+margin-top: 7%;
+}
+/* .arrow {
+
+} */
+.uppertext {
+    width: 80%;
+    font-size: xx-small;
+    font-weight: lighter;
+    /* color: tomato; */
+}
+p {
+    margin-bottom: 22px;
+}
+h1 {
+    margin-right: 160px;
+    margin-top: 7%;
+    font-weight: 1000;
+    font-size: 25px;
+    display: flex;
+    /* letter-spacing: 5px; */
+}
+.upperIcon {
+    height: 60px;
+    width: 100%;
+    /* background-color: saddlebrown; */
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.uppericonleft {
+    height: 40px;
+    width: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.uppericonright {
+    background-color: black;
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    /* .angle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+}
+.uppericonleft:hover{
+    cursor: pointer;
+    background-color: #aaa;
+}
+.uppericonright:hover{
+    background-color: #aaa;
+}
+
+.L1 {
+    background-color: saddlebrown;
+    height: 250px;
+    width: 30%;
+}
+.L1image, .L3image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.L2 {
+    /* background-color: sienna; */
+    height: 250px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lowertext {
+    width: 80%;
+    font-size: xx-small;
+    font-weight: lighter;
+    /* color: tomato; */
+}
+h4 {
+    margin-right: 160px;
+    font-weight: 500px;
+    letter-spacing: 5px;
+}
+.L3 {
+    background-color: silver;
+    height: 250px;
+    width: 30%;
+}
